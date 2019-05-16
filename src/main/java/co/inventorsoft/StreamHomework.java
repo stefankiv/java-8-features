@@ -6,7 +6,6 @@ import co.inventorsoft.model.User;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 /**
@@ -43,8 +42,7 @@ public class StreamHomework {
      * @param users collection of users
      * @return map {user email : user}
      */
-    public Map<String, User> groupByEmail(final List<User> users)
-    {
+    public Map<String, User> groupByEmail(final List<User> users) {
         return users.stream()
                 .collect(Collectors.toMap(User::getEmail, Function.identity()));
 
