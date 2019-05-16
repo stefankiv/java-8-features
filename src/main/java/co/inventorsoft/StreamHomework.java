@@ -68,6 +68,7 @@ public class StreamHomework {
      * @param people collection of people
      * @return string with unique names, like "Distinct names: a, b, c!"
      */
+    
     public String collectDistinctNames(final List<Person> people) {
 
         return "Distinct names: "+ people.stream().map(Person::getName).distinct()
