@@ -1,7 +1,9 @@
-package co.inventorsoft;
+package test.java.co.inventorsoft;
 
-import co.inventorsoft.model.Person;
-import co.inventorsoft.model.User;
+
+import main.java.co.inventorsoft.StreamHomework;
+import main.java.co.inventorsoft.model.Person;
+import main.java.co.inventorsoft.model.User;
 import org.junit.Before;
 import org.junit.Test;
 

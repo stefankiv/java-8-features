@@ -1,4 +1,4 @@
-package co.inventorsoft.model;
+package main.java.co.inventorsoft.model;
 
 public class User {
     private final String email;
