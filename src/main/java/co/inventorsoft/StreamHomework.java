@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 /**
  * Contains simple cases for trying Stream API in action.
  */
-public class StreamHomework {
+public class  StreamHomework {
     /**
      * Used to filter children and adults.
      * Returns collection of teenagers (13-19 years old).
